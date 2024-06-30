@@ -100,4 +100,4 @@ app = middleware.app
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app)
+   uvicorn.run(app, host="193.196.36.124", port=8555)
